@@ -8,15 +8,15 @@
 <li>系統會再確認一遍密碼，再次輸入即可完成設定</li>
 <li>根據2~6的步驟，依序設定兩個user，分別為examuser2和examuser3，密碼皆為ItIsExam</li>
 <li>完成後輸入ll /home/檢查</li>
-<li>應會顯示
-	drwx------. 2 examuser1		examuser1	日期	時間	examuser1 
-	drwx------. 2 examuser2		examuser2	日期	時間	examuser2 
-	drwx------. 2 examuser3		examuser3	日期	時間	examuser3	</li> 
+<li><p>應會顯示</p>
+	<p>drwx------. 2 examuser1		examuser1	日期	時間	examuser1</p> 
+	<p>drwx------. 2 examuser2		examuser2	日期	時間	examuser2</p> 
+	<p>drwx------. 2 examuser3		examuser3	日期	時間	examuser3</p>	</li> 
 #刪除examuser3	
 <li>輸入userdel -r examuser3</li>
 <li>輸入$ll /home/檢查</li>
 <li>應會顯示
-	drwx------. 2 examuser1		examuser1	日期	時間	examuser1 \n
+	drwx------. 2 examuser1		examuser1	日期	時間	examuser1 
 	drwx------. 2 examuser2		examuser2	日期	時間	examuser2 </li>
 #恢復examuser1 
 <li>輸入userdel examuser1模擬情形</li>
