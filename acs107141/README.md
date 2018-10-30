@@ -1,113 +1,113 @@
 ##1 
 <ol>
-<li>µn¤JCentOS</li>
-#«Ø¥ß±b¤á 
-<li>¿é¤Juseradd examuser1</li>
-<li>¿é¤Jpasswd examuser1</li>
-<li>Åã¥ÜNew Password:¨Ã¿é¤JItIsExam</li>
-<li>¨t²Î·|¦A½T»{¤@¹M±K½X¡A¦A¦¸¿é¤J§Y¥i§¹¦¨³]©w</li>
-<li>®Ú¾Ú2~6ªº¨BÆJ¡A¨Ì§Ç³]©w¨â­Óuser¡A¤À§O¬°examuser2©Mexamuser3¡A±K½X¬Ò¬°ItIsExam</li>
-<li>§¹¦¨«á¿é¤Jll /home/ÀË¬d</li>
-<li>À³·|Åã¥Ü
-	drwx------. 2 examuser1		examuser1	¤é´Á	®É¶¡	examuser1 
-	drwx------. 2 examuser2		examuser2	¤é´Á	®É¶¡	examuser2 
-	drwx------. 2 examuser3		examuser3	¤é´Á	®É¶¡	examuser3	</li> 
-#§R°£examuser3	
-<li>¿é¤Juserdel -r examuser3</li>
-<li>¿é¤J$ll /home/ÀË¬d</li>
-<li>À³·|Åã¥Ü
-	drwx------. 2 examuser1		examuser1	¤é´Á	®É¶¡	examuser1 
-	drwx------. 2 examuser2		examuser2	¤é´Á	®É¶¡	examuser2 </li>
-#«ì´_examuser1 
-<li>¿é¤Juserdel examuser1¼ÒÀÀ±¡§Î</li>
-<li>¿é¤Jll /home/ÀË¬d</li>
-<li>À³·|Åã¥Ü
-	drwx------. 2 1001			1001		¤é´Á	®É¶¡	examuser1 
-	drwx------. 2 examuser2		examuser2	¤é´Á	®É¶¡	examuser2 </li>
-<li>¿é¤Jsudo useradd -u 1001 -m examuser1</li>
-<li>¿é¤Jsudo passwd examuser1</li>
-<li>Åã¥ÜNew Password:¨Ã¿é¤JItIsExam</li></li>
-<li>¿é¤Jid examuser1</li>
-<li>Åã¥Ü
+<li>ç™»å…¥CentOS</li>
+#å»ºç«‹å¸³æˆ¶ 
+<li>è¼¸å…¥useradd examuser1</li>
+<li>è¼¸å…¥passwd examuser1</li>
+<li>é¡¯ç¤ºNew Password:ä¸¦è¼¸å…¥ItIsExam</li>
+<li>ç³»çµ±æœƒå†ç¢ºèªä¸€éå¯†ç¢¼ï¼Œå†æ¬¡è¼¸å…¥å³å¯å®Œæˆè¨­å®š</li>
+<li>æ ¹æ“š2~6çš„æ­¥é©Ÿï¼Œä¾åºè¨­å®šå…©å€‹userï¼Œåˆ†åˆ¥ç‚ºexamuser2å’Œexamuser3ï¼Œå¯†ç¢¼çš†ç‚ºItIsExam</li>
+<li>å®Œæˆå¾Œè¼¸å…¥ll /home/æª¢æŸ¥</li>
+<li>æ‡‰æœƒé¡¯ç¤º
+	drwx------. 2 examuser1		examuser1	æ—¥æœŸ	æ™‚é–“	examuser1 
+	drwx------. 2 examuser2		examuser2	æ—¥æœŸ	æ™‚é–“	examuser2 
+	drwx------. 2 examuser3		examuser3	æ—¥æœŸ	æ™‚é–“	examuser3	</li> 
+#åˆªé™¤examuser3	
+<li>è¼¸å…¥userdel -r examuser3</li>
+<li>è¼¸å…¥$ll /home/æª¢æŸ¥</li>
+<li>æ‡‰æœƒé¡¯ç¤º
+	drwx------. 2 examuser1		examuser1	æ—¥æœŸ	æ™‚é–“	examuser1 \n
+	drwx------. 2 examuser2		examuser2	æ—¥æœŸ	æ™‚é–“	examuser2 </li>
+#æ¢å¾©examuser1 
+<li>è¼¸å…¥userdel examuser1æ¨¡æ“¬æƒ…å½¢</li>
+<li>è¼¸å…¥ll /home/æª¢æŸ¥</li>
+<li>æ‡‰æœƒé¡¯ç¤º
+	drwx------. 2 1001			1001		æ—¥æœŸ	æ™‚é–“	examuser1 
+	drwx------. 2 examuser2		examuser2	æ—¥æœŸ	æ™‚é–“	examuser2 </li>
+<li>è¼¸å…¥sudo useradd -u 1001 -m examuser1</li>
+<li>è¼¸å…¥sudo passwd examuser1</li>
+<li>é¡¯ç¤ºNew Password:ä¸¦è¼¸å…¥ItIsExam</li></li>
+<li>è¼¸å…¥id examuser1</li>
+<li>é¡¯ç¤º
 	uid=1001(examuser1) gid=1001(examuser1) groups=1001(examuser1)</li>
 </ol>
 
 ##2
 <ol>
-#«Ø¥ßexamuser4 
-<li>¿é¤Juseradd examuser4</li>
-<li>¿é¤Jpasswd examuser4</li>
-<li>Åã¥ÜNew Password:³]©w±K½X</li></li>
-#½Æ»sÀÉ®×¨Ã§ó§ïÅv­­ 
-<li>¿é¤Jcp /etc/securetty /home/examuser4</li>
-<li>¿é¤Jls /home/examuser4ÀË¬d¬O§_¦³securetty</li>
-<li>¿é¤Jchmod u=rwx,g=rwx,o=rwx /home/examuser4/securetty</li>
+#å»ºç«‹examuser4 
+<li>è¼¸å…¥useradd examuser4</li>
+<li>è¼¸å…¥passwd examuser4</li>
+<li>é¡¯ç¤ºNew Password:è¨­å®šå¯†ç¢¼</li></li>
+#è¤‡è£½æª”æ¡ˆä¸¦æ›´æ”¹æ¬Šé™ 
+<li>è¼¸å…¥cp /etc/securetty /home/examuser4</li>
+<li>è¼¸å…¥ls /home/examuser4æª¢æŸ¥æ˜¯å¦æœ‰securetty</li>
+<li>è¼¸å…¥chmod u=rwx,g=rwx,o=rwx /home/examuser4/securetty</li>
 #CHECK 
-<li>¿é¤Jsu - examuser4¤Á´«¨Ï¥ÎªÌ</li>
-<li>¿é¤JllÀË¬d¬O§_§ó§ïÅv­­</li>
-#·s«ØÀÉ®× 
-<li>¿é¤Jcd /home/examuser4/¶i¤J¥Ø¿ı</li>
-<li>¿é¤Jmkdir examdata«Ø¥ß¸ê®Æ§¨</li>
-<li>¿é¤Jls</li>
-<li>¦pÅã¥Ü
-	examdata	securetty ¥Nªí¦¨¥\</li>
-<li>¿é¤Jcd examdata¶i¤J</li>
-<li>¿é¤Jtouch change.txt«Ø¥ßÀÉ®×</li>
-<li>¿é¤JllÀË¬d</li>
-<li>À³·|Åã¥Ü
-	-rw-rw-r--. 1	examuser4 examuser4 0	¤é´Á	®É¶¡	change.txt</li>
-#§ïÅv­­ 
-<li>¤Á¦^ROOT</li>
-<li>¿é¤Jcd /home/examuser4/examdata/</li>
-<li>¿é¤Jchown sshd change.txt§ó§ï¾Ö¦³ªÌ¬°sshd</li>
-<li>¿é¤Jchgrp users change.txt§ó§ï¸s²Õ¬°users</li>
-<li>¿é¤Jchmod u=rw,g=r,o= change.txt§ó§ïÅv­­¬°-rw-r-----</li>
-<li>¿é¤JllÀË¬d</li>
-<li>À³·|Åã¥Ü
-	-rw-r-----. 1	sshd users 0	¤é´Á	®É¶¡	change.txt</li></li>
-#§ï®É¶¡ 
-<li>¿é¤Jtouch -t 201212210807 change.txt</li>
+<li>è¼¸å…¥su - examuser4åˆ‡æ›ä½¿ç”¨è€…</li>
+<li>è¼¸å…¥llæª¢æŸ¥æ˜¯å¦æ›´æ”¹æ¬Šé™</li>
+#æ–°å»ºæª”æ¡ˆ 
+<li>è¼¸å…¥cd /home/examuser4/é€²å…¥ç›®éŒ„</li>
+<li>è¼¸å…¥mkdir examdataå»ºç«‹è³‡æ–™å¤¾</li>
+<li>è¼¸å…¥ls</li>
+<li>å¦‚é¡¯ç¤º
+	examdata	securetty ä»£è¡¨æˆåŠŸ</li>
+<li>è¼¸å…¥cd examdataé€²å…¥</li>
+<li>è¼¸å…¥touch change.txtå»ºç«‹æª”æ¡ˆ</li>
+<li>è¼¸å…¥llæª¢æŸ¥</li>
+<li>æ‡‰æœƒé¡¯ç¤º
+	-rw-rw-r--. 1	examuser4 examuser4 0	æ—¥æœŸ	æ™‚é–“	change.txt</li>
+#æ”¹æ¬Šé™ 
+<li>åˆ‡å›ROOT</li>
+<li>è¼¸å…¥cd /home/examuser4/examdata/</li>
+<li>è¼¸å…¥chown sshd change.txtæ›´æ”¹æ“æœ‰è€…ç‚ºsshd</li>
+<li>è¼¸å…¥chgrp users change.txtæ›´æ”¹ç¾¤çµ„ç‚ºusers</li>
+<li>è¼¸å…¥chmod u=rw,g=r,o= change.txtæ›´æ”¹æ¬Šé™ç‚º-rw-r-----</li>
+<li>è¼¸å…¥llæª¢æŸ¥</li>
+<li>æ‡‰æœƒé¡¯ç¤º
+	-rw-r-----. 1	sshd users 0	æ—¥æœŸ	æ™‚é–“	change.txt</li></li>
+#æ”¹æ™‚é–“ 
+<li>è¼¸å…¥touch -t 201212210807 change.txt</li>
 </ol>
 
 ##3
 
-#root¨­¤À«Ø¥ßÀÉ®×»PÅv­­ 
-<li>¿é¤Jcd /dev/shm/¶i¤J¸ê®Æ§¨</li>
-<li>¿é¤Jmkdir unit05«Ø¥ßÀÉ®×</li>
-<li>¿é¤Jchmod u=rwx,g=rwx,o=rx unit05</li>
-<li>¿é¤Jcd unit05¶i¤J</li>
-<li>¿é¤Jmkdir ¤À§O¥[¤W«Ø¥ß¥|­Ó¸ê®Æ§¨ </li>
-<li>­×§ïdir1,dir2,dir3,dir4Åv­­¦p¤U
-	dir1¡÷chmod u=rwx,g=rx,o=r dir1
-	dir2¡÷chmod u=rwx,g=rx,o=x dir2 
-	dir3¡÷chmod u=rwx,g=rx,o=rx dir3
-	dir4¡÷chmod u=rwx,g=rwx,o=rwx dir4 </li>
-<li>½Æ»s/etc/hosts¦Ü dir1,dir2,dir3,dir4¡A±NÀÉ¦W§ï¬° file1,file2,file3,file4
-	dir1¡÷cp /etc/hosts /dev/shm/unit05/dir1/file1
-	dir2¡÷cp /etc/hosts /dev/shm/unit05/dir2/file2
-	dir3¡÷cp /etc/hosts /dev/shm/unit05/dir3/file3
-	dir4¡÷cp /etc/hosts /dev/shm/unit05/dir4/file4 </li>
-#­×§ïfile1Åv­­
-<li>¿é¤Jcd unit05/dir1/</li>
-<li>¿é¤Jchmod u=rw,g=r,o=r file1</li>
-#­×§ïfile2Åv­­
-<li>¿é¤Jcd unit05/dir2/</li>
-<li>¿é¤Jchmod u=rw,g=r,o=r file2</li>
-#­×§ïfile3Åv­­
-<li>¿é¤Jcd unit05/dir3/</li>
-<li>¿é¤Jchmod u=rw,g=rw,o=rw file3</li>
-#­×§ïfile4Åv­­
-<li>¿é¤Jcd unit05/dir4/</li>
-<li>¿é¤Jchmod u=rwx,g=rwx,o=rwx file4</li>
-#½Ğ¨Ï¥Î ls -l /dev/shm/unit05/dir[1-4] ¨Ì¾Ú¿é¥Xªºµ²ªG»¡©ú¬°¦ó·|²£¥Í³o¨Ç°İÃD¡H
-<li>dir1°ßÅª</li>
-<li>dir2¬O¥u¯à°õ¦æ¡AµLªkÅª</li>
-<li>dir3µLªk­×§ï</li>
-<li>dir4¥i¥H¥ô·N°õ¦æ</li>
-#¥Î ls -l /dev/shm/unit05/dir1/file1¡A¨Ì§Ç±N¤W­zªºÀÉ¦W¥Ñ dir1/file1 ~ dir4/file4 °õ¦æ¡A¨Ì¾Ú²£¥Íªºµ²ªG»¡©ú¬°¦ó·|¦p¦¹¡H
-<li>dir1,dir2°ßÅª</li>
-<li>dir3¥iÅª¥i­×§ï</li>
-<li>dir4µLªk¨Ï¥Î</li>
-#¥Î vim /dev/shm/unit05/dir1/file1 ~ vim /dev/shm/unit05/dir4/file4¡A¹Á¸ÕÀx¦s (©Î±j¨îÀx¦s)¡A»¡©ú¬°¦ó¥i¥H/¤£¥i¥HÀx¦s¡H
-<li>other¨S¦³§ï°Êunit05¤º4­Ó¸ê®Æ§¨ªº­×§ïÅv­­</li>
+#rootèº«åˆ†å»ºç«‹æª”æ¡ˆèˆ‡æ¬Šé™ 
+<li>è¼¸å…¥cd /dev/shm/é€²å…¥è³‡æ–™å¤¾</li>
+<li>è¼¸å…¥mkdir unit05å»ºç«‹æª”æ¡ˆ</li>
+<li>è¼¸å…¥chmod u=rwx,g=rwx,o=rx unit05</li>
+<li>è¼¸å…¥cd unit05é€²å…¥</li>
+<li>è¼¸å…¥mkdir åˆ†åˆ¥åŠ ä¸Šå»ºç«‹å››å€‹è³‡æ–™å¤¾ </li>
+<li>ä¿®æ”¹dir1,dir2,dir3,dir4æ¬Šé™å¦‚ä¸‹
+	dir1â†’chmod u=rwx,g=rx,o=r dir1
+	dir2â†’chmod u=rwx,g=rx,o=x dir2 
+	dir3â†’chmod u=rwx,g=rx,o=rx dir3
+	dir4â†’chmod u=rwx,g=rwx,o=rwx dir4 </li>
+<li>è¤‡è£½/etc/hostsè‡³ dir1,dir2,dir3,dir4ï¼Œå°‡æª”åæ”¹ç‚º file1,file2,file3,file4
+	dir1â†’cp /etc/hosts /dev/shm/unit05/dir1/file1
+	dir2â†’cp /etc/hosts /dev/shm/unit05/dir2/file2
+	dir3â†’cp /etc/hosts /dev/shm/unit05/dir3/file3
+	dir4â†’cp /etc/hosts /dev/shm/unit05/dir4/file4 </li>
+#ä¿®æ”¹file1æ¬Šé™
+<li>è¼¸å…¥cd unit05/dir1/</li>
+<li>è¼¸å…¥chmod u=rw,g=r,o=r file1</li>
+#ä¿®æ”¹file2æ¬Šé™
+<li>è¼¸å…¥cd unit05/dir2/</li>
+<li>è¼¸å…¥chmod u=rw,g=r,o=r file2</li>
+#ä¿®æ”¹file3æ¬Šé™
+<li>è¼¸å…¥cd unit05/dir3/</li>
+<li>è¼¸å…¥chmod u=rw,g=rw,o=rw file3</li>
+#ä¿®æ”¹file4æ¬Šé™
+<li>è¼¸å…¥cd unit05/dir4/</li>
+<li>è¼¸å…¥chmod u=rwx,g=rwx,o=rwx file4</li>
+#è«‹ä½¿ç”¨ ls -l /dev/shm/unit05/dir[1-4] ä¾æ“šè¼¸å‡ºçš„çµæœèªªæ˜ç‚ºä½•æœƒç”¢ç”Ÿé€™äº›å•é¡Œï¼Ÿ
+<li>dir1å”¯è®€</li>
+<li>dir2æ˜¯åªèƒ½åŸ·è¡Œï¼Œç„¡æ³•è®€</li>
+<li>dir3ç„¡æ³•ä¿®æ”¹</li>
+<li>dir4å¯ä»¥ä»»æ„åŸ·è¡Œ</li>
+#ç”¨ ls -l /dev/shm/unit05/dir1/file1ï¼Œä¾åºå°‡ä¸Šè¿°çš„æª”åç”± dir1/file1 ~ dir4/file4 åŸ·è¡Œï¼Œä¾æ“šç”¢ç”Ÿçš„çµæœèªªæ˜ç‚ºä½•æœƒå¦‚æ­¤ï¼Ÿ
+<li>dir1,dir2å”¯è®€</li>
+<li>dir3å¯è®€å¯ä¿®æ”¹</li>
+<li>dir4ç„¡æ³•ä½¿ç”¨</li>
+#ç”¨ vim /dev/shm/unit05/dir1/file1 ~ vim /dev/shm/unit05/dir4/file4ï¼Œå˜—è©¦å„²å­˜ (æˆ–å¼·åˆ¶å„²å­˜)ï¼Œèªªæ˜ç‚ºä½•å¯ä»¥/ä¸å¯ä»¥å„²å­˜ï¼Ÿ
+<li>otheræ²’æœ‰æ”¹å‹•unit05å…§4å€‹è³‡æ–™å¤¾çš„ä¿®æ”¹æ¬Šé™</li>
 </ol> 
