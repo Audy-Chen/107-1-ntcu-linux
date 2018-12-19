@@ -1,14 +1,14 @@
-### HW6
+# HW7
 
-# apache log¬Oapache web serverªº¤é»xÀÉ
-# ½Ð¬d¸ß curl ©Î wget ªº¥Îªk«á¡A¥Î¨ä¤¤¤@­Ó«ü¥O¤U¸ü¦¹¤é»xÀÉ¡C
-# ¨Ï¥Îbashªºpipe«ü¥O¡A¨Ò¦pgrep¡Bcat...µ¥µ¥¡A±N¦¹¤é»x¤¤errorµo¥Íªº­ì¦]¿é¥X¦Ü¿Ã¹õ¡A¦ý¨ä¥L¸ê°T¤£»Ý­n§e²{¡C
+## apache logæ˜¯apache web serverçš„æ—¥èªŒæª”
+## è«‹æŸ¥è©¢ curl æˆ– wget çš„ç”¨æ³•å¾Œï¼Œç”¨å…¶ä¸­ä¸€å€‹æŒ‡ä»¤ä¸‹è¼‰æ­¤æ—¥èªŒæª”ã€‚
+## ä½¿ç”¨bashçš„pipeæŒ‡ä»¤ï¼Œä¾‹å¦‚grepã€cat...ç­‰ç­‰ï¼Œå°‡æ­¤æ—¥èªŒä¸­errorç™¼ç”Ÿçš„åŽŸå› è¼¸å‡ºè‡³èž¢å¹•ï¼Œä½†å…¶ä»–è³‡è¨Šä¸éœ€è¦å‘ˆç¾ã€‚
 
- * ¿é¤J```curl https://raw.githubusercontent.com/ogre0403/107-1-ntcu-linux/master/resource/web.log | grep error > out```
+ * è¼¸å…¥```curl https://raw.githubusercontent.com/ogre0403/107-1-ntcu-linux/master/resource/web.log | grep error > out```
 ![](https://i.imgur.com/7XnSu2Y.png)
 
-# tar¬Olinux¤U¥Î¨Ó¥´¥]À£ÁY¥Ø¿ýªº¤u¨ã¡A½Ð¦Û¦æ¬d¸ßtarªº¥Îªk«á¡A¥Î¤@¯ë¨Ï¥ÎªÌ¨­¥÷¥´¥]¨ÃÀ£ÁY/var¥Ø¿ý¡C¦btar°õ¦æ¹Lµ{¤¤¡A©¿²¤¥¿±`¿é¥Xµ²ªG¡A¦ý»Ý±N¿ù»~°T®§¿é¥X¦Ütar-err.logÀÉ®×¡C
+## taræ˜¯linuxä¸‹ç”¨ä¾†æ‰“åŒ…å£“ç¸®ç›®éŒ„çš„å·¥å…·ï¼Œè«‹è‡ªè¡ŒæŸ¥è©¢tarçš„ç”¨æ³•å¾Œï¼Œç”¨ä¸€èˆ¬ä½¿ç”¨è€…èº«ä»½æ‰“åŒ…ä¸¦å£“ç¸®/varç›®éŒ„ã€‚åœ¨taråŸ·è¡ŒéŽç¨‹ä¸­ï¼Œå¿½ç•¥æ­£å¸¸è¼¸å‡ºçµæžœï¼Œä½†éœ€å°‡éŒ¯èª¤è¨Šæ¯è¼¸å‡ºè‡³tar-err.logæª”æ¡ˆã€‚
 
- * ¿é¤J```tar -jcv -f filename.tar.bz2 /var 2> tar-err.log```
- * ¿é¤J```cat tar-err.log```¥H¬d¬Ý tar-err.log ªº¤º®e 
+ * è¼¸å…¥```tar -jcv -f filename.tar.bz2 /var 2> tar-err.log```
+ * è¼¸å…¥```cat tar-err.log```ä»¥æŸ¥çœ‹ tar-err.log çš„å…§å®¹ 
 
