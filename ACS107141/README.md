@@ -1,8 +1,6 @@
 # HW7
 
-## apache log是apache web server的日誌檔
-## 請查詢 curl 或 wget 的用法後，用其中一個指令下載此日誌檔。
-## 使用bash的pipe指令，例如grep、cat...等等，將此日誌中error發生的原因輸出至螢幕，但其他資訊不需要呈現。
+## apache log是apache web server的日誌檔請查詢 curl 或 wget 的用法後，用其中一個指令下載此日誌檔。使用bash的pipe指令，例如grep、cat...等等，將此日誌中error發生的原因輸出至螢幕，但其他資訊不需要呈現。
 
  * 輸入```curl https://raw.githubusercontent.com/ogre0403/107-1-ntcu-linux/master/resource/web.log | grep error > out```
 ![](https://i.imgur.com/7XnSu2Y.png)
